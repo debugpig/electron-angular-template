@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "tsc:main": "tsc -p src/tsconfig.src.json",
     "start:electron": "electron .",
-    "electron": "ng build & npm run tsc & electron ."
+    "electron": "ng build && npm run tsc:main && electron ."
   },
   "private": true,
   "dependencies": {
